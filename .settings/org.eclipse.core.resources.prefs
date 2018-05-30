@@ -1,2 +1,11 @@
 eclipse.preferences.version=1
+encoding//Archive_lib/ssh_handler.py=utf-8
+encoding//BiocomCommon/CommandLineClass_template.py=utf-8
+encoding//BiocomCommon/checks.py=utf-8
+encoding//BiocomCommon/confighandler.py=utf-8
+encoding//BiocomCommon/dbhandler.py=utf-8
+encoding//BiocomCommon/decorators.py=utf-8
+encoding//BiocomCommon/loghandler.py=utf-8
+encoding//BiocomCommon/move_file.py=utf-8
+encoding//BiocomCommon/sshhandler.py=utf-8
 encoding/test.py=utf-8

@@ -1,18 +1,25 @@
 ##############################################################################
-# Removal of the "__license__" line or content from  "__license__", or removal
-# of "__author__" in this or any constituent # component or file constitutes a
-# violation of the licensing and copyright agreement.
-# from cgi import logfile
-# NOTES:
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU LGPL License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# See the files gpl.txt and lgpl.txt packaged with this file.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 
 __author__      = "Mike Rightmire"
 __copyright__   = "BioCom Software"
-__license__     = "Telemend"
-__license_file__= "Clause1.PERPETUAL_AND_UNLIMITED_LICENSING_TO_THE_CLIENT.py"
+__license__     = "LGPLv3"
+__license_file__= "lgpl.txt"
 __version__     = "0.9.7.2"
 __maintainer__  = "Mike Rightmire"
 __email__       = "Mike.Rightmire@BiocomSoftware.com"
 __status__      = "Development"
+
 ##############################################################################
 
 from BiocomCommon.confighandler import ConfigHandler
