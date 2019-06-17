@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copyright Mike Rightmire, Biocom Software
+# mike.rightmire@biocomsoftware.com
+
 while getopts "n:p:" opt; do
     case $opt in
         n) name+=("$OPTARG");;
