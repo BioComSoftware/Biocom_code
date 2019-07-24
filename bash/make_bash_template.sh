@@ -3,6 +3,24 @@
 # Copyright Mike Rightmire, Biocom Software
 # mike.rightmire@biocomsoftware.com
 
+### USAGE ######################################################################
+#
+#make_bash_template.sh takes in a list of parameters, andcreates a file with all the annoying
+#                      busywork of creating help fields, usage statements and the getopts.  
+#                      
+# Example:                      
+# make_bash_template.sh -n MyScript -p infile -p outfile -p param 
+#
+#  -n |
+#        The name of the output file. ".sh" will be added automagically.
+#        (MANDATORY)
+#
+#  -p |
+#        Description.
+#        (DEFAULT: )
+#
+### USAGE ######################################################################
+
 while getopts "n:p:" opt; do
     case $opt in
         n) name+=("$OPTARG");;

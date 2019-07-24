@@ -8,4 +8,5 @@ encoding//BiocomCommon/decorators.py=utf-8
 encoding//BiocomCommon/loghandler.py=utf-8
 encoding//BiocomCommon/move_file.py=utf-8
 encoding//BiocomCommon/sshhandler.py=utf-8
+encoding//templates/CommandLineClass_template.py=utf-8
 encoding/test.py=utf-8
